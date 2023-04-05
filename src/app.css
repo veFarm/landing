@@ -30,10 +30,7 @@ danger      A color for displaying error messages
 }
 
 :root {
-  @apply font-mono text-lg font-normal leading-6 text-body;
-
-  color-scheme: light dark;
-
+  font-family: monospace;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -42,12 +39,15 @@ danger      A color for displaying error messages
 }
 
 body {
-  /* display: flex; */
-  /* place-items: center; */
+  display: flex;
+  place-items: center;
   margin: 0;
   min-height: 100vh;
-  background: linear-gradient(#03001e, #1d2671, #c33764);
-  @apply text-body;
+  background: radial-gradient(
+    55.7% 88.6% at 21.5% 50%,
+    #34103d 0%,
+    #1d1d1d 100%
+  );
 }
 
 #app {
@@ -58,27 +58,13 @@ body {
 
 /* Fonts */
 h1 {
-  @apply text-2xl md:text-4xl text-body font-bold;
-}
-h1 .impact {
-  @apply font-extrabold text-transparent text-3xl md:text-5xl bg-clip-text bg-gradient-to-r from-amber-600 to-amber-700;
-}
-h3 {
-  @apply text-xl md:text-2xl text-body font-semibold;
-}
-h4 {
-  @apply text-base md:text-xl text-body font-normal;
+  @apply text-5xl md:text-7xl font-extrabold text-gray-100 text-center;
 }
 
-/* Input */
-input {
-  @apply bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500;
-}
-input:disabled {
-  @apply cursor-not-allowed;
+h2 {
+  @apply text-xl md:text-3xl font-normal text-gray-200 text-center;
 }
 
-/* Dialog */
-dialog {
-  @apply p-0 bg-highlight rounded-lg border backdrop:bg-transparent/70 z-10;
+a {
+  @apply px-5 py-3 md:px-6 md:py-4 text-xl md:text-2xl font-medium text-center text-gray-100 border-2 border-gray-100 rounded-lg focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900 w-44 mx-auto;
 }
