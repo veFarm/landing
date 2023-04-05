@@ -2,33 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/*
-Key:	      Description:
-primary	    Primary brand color for links, buttons, etc.
-secondary	  A secondary brand color for alternative styling
-body	      Body foreground color
-background	Body background color
-highlight	  A background color for highlighting text
-muted	      A faint color for borders, backgrounds, and accents that do not require high contrast with the background color
-accent	    A contrast color for emphasizing UI
-danger      A color for displaying error messages
-*/
-@layer base {
-  :root {
-    --color-primary: 163 230 53; /* lime-400 */
-    --color-primary-100: 190 242 100; /* lime-300 */
-    --color-secondary: 75 85 99; /* gray-600 */
-    --color-secondary-100: 107 114 128; /* gray-500 */
-    --color-body: 255 255 255; /* white */
-    --color-background: 29 29 29; /* black */
-    --color-highlight: 55 65 81; /* gray-700 */
-    --color-muted: 75 85 99; /* gray-600 */
-    --color-accent: 156 163 175; /* gray-400 */
-    --color-danger: 239 68 68; /* red-500 */
-    --color-danger-100: 251 113 133; /* red-400 */
-  }
-}
-
 :root {
   font-family: monospace;
   font-synthesis: none;
