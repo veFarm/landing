@@ -31,7 +31,7 @@ body {
 
 /* Fonts */
 h1 {
-  @apply text-5xl md:text-7xl font-extrabold text-gray-100 text-center;
+  @apply text-4xl md:text-6xl font-extrabold text-gray-100 text-center;
 }
 
 h2 {
