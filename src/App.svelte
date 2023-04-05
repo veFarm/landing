@@ -1,8 +1,8 @@
 <div class="flex flex-col justify-center space-y-8">
   <h1>Automatically swap VTHO for VET to increase your VET balance.</h1>
   <h2>
-    We use maths to determine the best time to trade based on your balance and
-    market conditions.
+    We use maths to determine the best trade based on your balance and market
+    conditions.
   </h2>
 
   <a href="#" class="inline-flex items-center justify-center">
