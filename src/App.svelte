@@ -44,7 +44,7 @@
       <p
         class="text-sm font-medium tracking-widest text-gray-900 uppercase lg:text-base"
       >
-        Trades.
+        Trades
       </p>
     </div>
     <div class="text-center md:border-r border-gray-150">
@@ -54,7 +54,7 @@
       <p
         class="text-sm font-medium tracking-widest text-gray-900 uppercase lg:text-base"
       >
-        VET volume.
+        VET volume
       </p>
     </div>
     <div class="text-center">
@@ -64,7 +64,7 @@
       <p
         class="text-sm font-medium tracking-widest text-gray-900 uppercase lg:text-base"
       >
-        Users.
+        Users
       </p>
     </div>
   </div>
