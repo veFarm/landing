@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  /* font-family: monospace; */
+  font-family: monospace;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -23,14 +23,14 @@ body {
 }
 
 /* Fonts */
-/* h1 {
-  @apply text-4xl md:text-6xl font-extrabold text-gray-100 text-center;
+h1 {
+  @apply text-4xl sm:text-6xl font-bold leading-none tracking-tight text-gray-50;
 }
 
-p {
+/* p {
   @apply text-xl md:text-3xl font-normal text-gray-200 text-center;
-}
-
+} */
+/*
 a {
   @apply px-6 py-4 md:px-7 md:py-5 text-xl md:text-2xl font-semibold text-center text-slate-50 border-2 border-gray-100 rounded-lg focus:ring-4 focus:ring-blue-300 mx-auto;
 } */
