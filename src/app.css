@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  font-family: monospace;
+  /* font-family: monospace; */
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -12,32 +12,25 @@
 }
 
 body {
-  display: flex;
-  place-items: center;
   margin: 0;
   min-height: 100vh;
-  background: radial-gradient(
-    55.7% 88.6% at 21.5% 50%,
-    #34103d 0%,
-    #1d1d1d 100%
-  );
 }
 
 #app {
-  max-width: 640px;
+  /* max-width: 940px; */
   margin: 0 auto;
-  @apply px-8;
+  /* @apply px-8; */
 }
 
 /* Fonts */
-h1 {
+/* h1 {
   @apply text-4xl md:text-6xl font-extrabold text-gray-100 text-center;
 }
 
-h2 {
+p {
   @apply text-xl md:text-3xl font-normal text-gray-200 text-center;
 }
 
 a {
-  @apply px-5 py-3 md:px-6 md:py-4 text-xl md:text-2xl font-medium text-center text-gray-100 border-2 border-gray-100 rounded-lg focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900 w-44 mx-auto;
-}
+  @apply px-6 py-4 md:px-7 md:py-5 text-xl md:text-2xl font-semibold text-center text-slate-50 border-2 border-gray-100 rounded-lg focus:ring-4 focus:ring-blue-300 mx-auto;
+} */
