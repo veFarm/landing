@@ -27,8 +27,8 @@
   </div>
 </div>
 <div class="px-4 py-8 mx-auto w-full bg-gray-50 md:px-24 lg:px-8 lg:py-16">
-  <div class="max-w-6xl mx-auto grid grid-cols-3 row-gap-8 md:grid-cols-3">
-    <div class="text-center md:border-r border-gray-150">
+  <div class="max-w-3xl mx-auto grid grid-cols-3 row-gap-8 md:grid-cols-3">
+    <div class="text-center">
       <h6 class="text-4xl font-bold lg:text-5xl xl:text-6xl text-gray-900">
         3,2K
       </h6>
@@ -38,7 +38,7 @@
         Trades
       </p>
     </div>
-    <div class="text-center md:border-r border-gray-150">
+    <div class="text-center">
       <h6 class="text-4xl font-bold lg:text-5xl xl:text-6xl text-gray-900">
         13,8K
       </h6>
