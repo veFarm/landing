@@ -6,9 +6,7 @@
       <div
         class="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12"
       > -->
-    <h1 class="sm:text-center">
-      Automate your <span class="inline-block">VTHO-VET</span> swaps.
-    </h1>
+    <h1 class="sm:text-center">Automatic VTHO farming for VET assets</h1>
     <p class="text-xl sm:text-2xl text-gray-100 sm:text-center">
       Allow our smart contract to spend your VTHO in exchange for VET,
       automatically. Don&apos;t worry about finding the best exchange rate or
@@ -26,7 +24,7 @@
     </div> -->
   </div>
 </div>
-<div class="px-4 py-8 mx-auto w-full bg-gray-50 md:px-24 lg:px-8 lg:py-16">
+<!-- <div class="px-4 py-8 mx-auto w-full bg-gray-50 md:px-24 lg:px-8 lg:py-16">
   <div class="max-w-3xl mx-auto grid grid-cols-3 row-gap-8 md:grid-cols-3">
     <div class="text-center">
       <h6 class="text-4xl font-bold lg:text-5xl xl:text-6xl text-gray-900">
@@ -58,5 +56,43 @@
         Users
       </p>
     </div>
+  </div>
+</div> -->
+<div class="bg-gray-100 w-full px-4 md:px-24 lg:px-8 py-8 lg:py-16">
+  <div
+    class="flex flex-col sm:items-center space-y-8 max-w-xl sm:mx-auto lg:max-w-3xl"
+  >
+    <h1 class="text-gray-900 sm:text-center">Motivation</h1>
+    <p class="text-xl sm:text-2xl text-gray-800">
+      VTHO is a VIP-180 token on VeChain, which is generated automatically when
+      you hold VET. While the VET is sleeping in your wallet, it generates VTHO
+      every block and you are entitled to own it.
+    </p>
+    <p class="text-xl sm:text-2xl text-gray-800">
+      VTHO is generated from VET in each block over time in a linear manner at a
+      constant rate of 0.00000005 VTHO per VET per block. In other words, if you
+      had 10K VET, you would be given at most 4.32 VTHO every 24 hours.
+    </p>
+    <p class="text-xl sm:text-2xl text-gray-800">
+      So, why not exchanging VTHO for VET periodically to increase your VET
+      balance and VTHO generation rate?
+    </p>
+    <p class="text-xl sm:text-2xl text-gray-800">
+      Source: <a
+        href="https://docs.vechain.org/thor/learn/two-token-design"
+        target="_blank"
+        rel="noreferrer"
+      >
+        https://docs.vechain.org/thor/learn/two-token-design
+      </a>
+    </p>
+  </div>
+</div>
+<div class="w-full px-4 md:px-24 lg:px-8 py-8 lg:py-16">
+  <div
+    class="flex flex-col sm:items-center space-y-8 max-w-xl sm:mx-auto lg:max-w-3xl"
+  >
+    <h1 class="text-gray-900 sm:text-center">How it works</h1>
+    <img src="/veFarm.drawio.png" alt="Architecture" width="100%" />
   </div>
 </div>
