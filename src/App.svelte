@@ -64,27 +64,16 @@
   >
     <h1 class="text-gray-900 sm:text-center">Motivation</h1>
     <p class="text-xl sm:text-2xl text-gray-800">
-      VTHO is a VIP-180 token on VeChain, which is generated automatically when
-      you hold VET. While the VET is sleeping in your wallet, it generates VTHO
-      every block and you are entitled to own it.
+      VTHO is a token on VeChain, which is generated automatically when you hold
+      VET. As long as VET is kept in the wallet, VTHO will be generated in a
+      linear fashion at a constant rate of 0.00000005 VTHO per VET per block.
+      For example, if you had 10K VET, you would be given at most 4.32 VTHO
+      every 24 hours.
     </p>
     <p class="text-xl sm:text-2xl text-gray-800">
-      VTHO is generated from VET in each block over time in a linear manner at a
-      constant rate of 0.00000005 VTHO per VET per block. In other words, if you
-      had 10K VET, you would be given at most 4.32 VTHO every 24 hours.
-    </p>
-    <p class="text-xl sm:text-2xl text-gray-800">
-      So, why not exchanging VTHO for VET periodically to increase your VET
-      balance and VTHO generation rate?
-    </p>
-    <p class="text-xl sm:text-2xl text-gray-800">
-      Source: <a
-        href="https://docs.vechain.org/thor/learn/two-token-design"
-        target="_blank"
-        rel="noreferrer"
-      >
-        https://docs.vechain.org/thor/learn/two-token-design
-      </a>
+      One way to increase your VET balance is by exchanging earned VTHO tokens
+      for VET on a regular basis. By doing so, you will generate more VTHO which
+      can then be traded for even more VET, and the cycle continues.
     </p>
   </div>
 </div>
