@@ -15,7 +15,7 @@
     <!-- </div>
       <div> -->
     <a
-      href="/"
+      href="https://main--symphonious-macaron-41163f.netlify.app/"
       class="inline-flex items-center justify-center text-xl sm:text-2xl h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-indigo-500 hover:bg-indigo-500 focus:shadow-outline focus:outline-none border-2 border-gray-100"
     >
       Start now
