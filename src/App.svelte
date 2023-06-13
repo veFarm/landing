@@ -82,6 +82,8 @@
     class="flex flex-col sm:items-center space-y-8 max-w-xl sm:mx-auto lg:max-w-3xl"
   >
     <h1 class="text-gray-900 sm:text-center">How it works</h1>
-    <img src="/veFarm.drawio.png" alt="Architecture" width="100%" />
+    <a href="/veFarm.drawio.png" target="_blank" rel="noreferrer">
+      <img src="/veFarm.drawio.png" alt="Architecture" width="100%" />
+    </a>
   </div>
 </div>
