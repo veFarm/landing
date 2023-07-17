@@ -6,7 +6,9 @@
       <div
         class="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12"
       > -->
-    <h1 class="sm:text-center">Automatic VTHO farming for VET assets</h1>
+    <h1 class="sm:text-center">
+      Automatic VTHO to VET swaps using optimized strategies
+    </h1>
     <p class="text-xl sm:text-2xl text-gray-100 sm:text-center">
       Allow our smart contract to spend your VTHO in exchange for VET,
       automatically. Don&apos;t worry about finding the best exchange rate or
